@@ -31,6 +31,7 @@ class StoreLeadRequest extends FormRequest
             'user_created_id'  => '',
             'client_id'        => 'required',
             'contact_date'     => 'required',
+            'contact_jdate'    =>''
         ];
     }
 }

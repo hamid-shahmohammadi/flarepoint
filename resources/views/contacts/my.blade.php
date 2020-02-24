@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('heading')
-    <h1>{{__('My Contacts')}}</h1>
+    <h1>{{__('همه مخاطبین')}}</h1>
 @stop
 
 @section('content')

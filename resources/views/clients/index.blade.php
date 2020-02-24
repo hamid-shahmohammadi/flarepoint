@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('heading')
-    <h1>{{ __('All Clients') }}</h1>
+    <h1>{{ __('همه مشتریان') }}</h1>
 @stop
 
 @section('content')
@@ -8,11 +8,11 @@
     <table class="table table-striped" id="clients-table">
         <thead>
         <tr>
-            <th>{{ __('Company') }}</th>
-            <th>{{ __('Primary Number') }}</th>
-            <th>{{ __('Primary Email') }}</th>
-            <th>{{ __('Salesperson') }}</th>
-            <th>{{ __('Actions') }}</th>
+            <th>{{ __('شرکت') }}</th>
+            <th>{{ __('شماره اصلی') }}</th>
+            <th>{{ __('ایمیل اصلی') }}</th>
+            <th>{{ __('فروشنده') }}</th>
+            <th>{{ __('عملیات') }}</th>
         </tr>
         </thead>
     </table>
@@ -35,7 +35,10 @@
                 {data: 'salesperson', name: 'salesperson'},
                 {data: 'actions', name: 'actions', orderable: false, searchable: false},
 
-            ]
+            ],
+            "oLanguage": {
+                "sSearch": "جستجو"
+            }
         });
     });
 </script>

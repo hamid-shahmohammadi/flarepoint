@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('heading')
-    <h1>{{ __('Create Client') }}</h1>
+    <h1>{{ __('ایجاد مشتری') }}</h1>
+    <hr>
 @stop
 
 @section('content')
@@ -26,7 +27,7 @@
     </div> -->
 
     {!! Form::open(['route' => 'clients.store']) !!}
-        @include('clients.form', ['submitButtonText' => __('Create New Client')])
+        @include('clients.form', ['submitButtonText' => __('ایجاد مشتری جدید')])
     {!! Form::close() !!}
 
 @stop

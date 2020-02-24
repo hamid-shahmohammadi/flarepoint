@@ -4,3 +4,6 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/hamid-shahmohammadi/flarepoint.git
 git push -u origin master
+
+admin@admin.com
+admin123

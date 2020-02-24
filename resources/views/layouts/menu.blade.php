@@ -22,7 +22,7 @@
             </div>
 
             <a href="#contacts" class=" list-group-item" data-toggle="collapse" data-parent="#MainMenu"><i
-                        class="glyphicon sidebar-icon glyphicon-tag"></i><span id="menu-txt">{{ __('تماسها') }}</span>
+                        class="glyphicon sidebar-icon glyphicon-phone"></i><span id="menu-txt">{{ __('تماسها') }}</span>
             <i class="ion-chevron-up  arrow-up sidebar-arrow"></i></a>
             <div class="collapse" id="contacts">
 

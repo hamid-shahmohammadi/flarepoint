@@ -8,10 +8,10 @@
     <table class="table table-striped" id="clients-table">
         <thead>
         <tr>
-            <th>{{ __('Company') }}</th>
-            <th>{{ __('Primary Number') }}</th>
-            <th>{{ __('Primary Email') }}</th>
-            <th>{{ __('Actions') }}</th>
+            <th>{{ __('شرکت') }}</th>
+            <th>{{ __('شماره تلفن اصلی') }}</th>
+            <th>{{ __('ایمیل اصلی') }}</th>
+            <th>{{ __('عملیات') }}</th>
         </tr>
         </thead>
     </table>

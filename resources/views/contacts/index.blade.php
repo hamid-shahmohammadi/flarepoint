@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('heading')
-    <h1>{{__('All Contacts')}}</h1>
+    <h1>{{__('همه مخاطبین')}}</h1>
 @stop
 
 @section('content')
@@ -24,7 +24,10 @@
         $('#contacts-table').DataTable({
             processing: true,
             serverSide: true,
-            ajax: '{!! route('contacts.data') !!}',
+            ajax: {
+                url:'http://localhost/flarepoint/public/contacts/data',
+                type:'GET'
+            },
             columns: [
                 {data: 'namelink', name: 'name'},
                 {data: 'job_title', name: 'job_title'},

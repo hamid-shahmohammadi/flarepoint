@@ -38,7 +38,7 @@
     </div>
     <div class="form-group">
         <label class="control-label">تاریخ شمسی</label>
-        <input type="text" id="pcal1" class="pdate form-jdate">
+        <input type="text" name="contact_jdate" id="pcal1" class="pdate form-jdate">
 
     </div>
 

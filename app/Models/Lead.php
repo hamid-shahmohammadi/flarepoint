@@ -16,6 +16,7 @@ class Lead extends Model
         'user_created_id',
         'client_id',
         'contact_date',
+        'contact_jdate'
     ];
     protected $dates = ['contact_date'];
 
